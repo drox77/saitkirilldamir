@@ -1,0 +1,16 @@
+{
+  "name": "dk-agency-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт агентства D&K — ДНК вашего бизнеса",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  }
+}
